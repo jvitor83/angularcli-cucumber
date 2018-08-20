@@ -37,6 +37,7 @@
             format: 'json:./TestResults/integrationtest/testresults/json/cucumber_report.json',
             'dry-run': false
         },
+        suites: getSuites(),
         onPrepare() {
             require('ts-node').register({
                 project: require('path').join(__dirname, './tsconfig.e2e.json')
