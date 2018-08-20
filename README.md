@@ -61,7 +61,7 @@
     }
     ```
 
-1) Erase the directory `e2e/src`
+1) Copy the files of `e2e/src` to `e2e/src/pages`
 1) Create the directory `e2e/src/features`
 1) Create the file `e2e/src/features/example.feature` with the content:
     ```gherkin
